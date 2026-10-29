@@ -1,0 +1,14 @@
+{
+  "name": "rekap-posyandu",
+  "version": "2.0.0",
+  "description": "Aplikasi rekapitulasi bulanan posyandu (Vercel + database Postgres/Turso)",
+  "main": "app.js",
+  "scripts": { "start": "node --no-warnings --env-file-if-exists=.env app.js" },
+  "engines": { "node": "22.x" },
+  "dependencies": {
+    "@libsql/client": "^0.15.0",
+    "pg": "^8.13.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
